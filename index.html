@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Space Battle</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://cdn.pixabay.com/photo/2016/04/24/04/53/globe-1348777_1280.png"
+    />
+  </head>
+  <body>
+    <div class="contentScreen">
+      <div class="titleContainer">
+        <p class="title">Space Battle</p>
+      </div>
+      <div class="mainScreen">
+        <div class="messageContainer">
+          <p class="message"></p>
+          <p class="score"></p>
+        </div>
+        <div class="scoreBoard">
+          <div class="playerCol">
+            <div class="row1"></div>
+            <div class="row2"></div>
+            <div class="row3"></div>
+          </div>
+          <div class="alienCol">
+            <div class="alienrow1"></div>
+            <div class="alienrow2"></div>
+            <div class="alienrow3"></div>
+          </div>
+        </div>
+        <div class="gameScreen">
+          <div class="playerSide">
+            <img
+              src="https://cdna.artstation.com/p/assets/images/images/035/324/544/original/dahlia-b-ccp2.gif?1614684784"
+              alt=""
+              class="player"
+            />
+          </div>
+          <div class="opponentSide">
+            <img
+              src="https://i.gifer.com/origin/24/2432cf5ff737ad7d1794a29d042eb02e_w200.gif"
+              alt=""
+              class="opponent"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="buttonContainer">
+        <button class="playerAttack" onclick="ussAttack()">USS Attack</button>
+        <button class="retreat" onclick="retreat()">Retreat</button>
+        <button class="alienAttack" onclick="alienAttack()">
+          Alien Attack
+        </button>
+      </div>
+    </div>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>

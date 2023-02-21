@@ -1,0 +1,146 @@
+body{
+    background-image: url("https://media4.popsugar-assets.com/files/2015/04/24/750/n/1922398/79567de7_15-066.xxxlarge.jpg");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contentScreen{
+    border: ridge;
+    height: 90vh;
+    width: 80vh;
+    margin: auto;
+    background-image: url("https://i.pinimg.com/originals/3a/0b/40/3a0b40d96c53860572a1c29970ce14a8.gif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1%;
+}
+
+.titleContainer{
+    border: ridge;
+    height: 15vh;
+    width: 79vh;
+    margin: auto;
+    color: darkviolet;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 1%;
+}
+
+.mainScreen{
+    /* border: ridge purple; */
+    height: 65vh;
+    width: 80vh;
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.messageContainer{
+    border: groove thick lightgray;
+    height: 20vh;
+    width: 60vh;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 1%;
+}
+
+.gameScreen{
+    /* border: solid yellow; */
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playerSide{
+    /* border: solid purple; */
+    height: 30vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.player{
+    /* border: solid green; */
+    height: 30vh;
+    width: 30vh;
+    align-self: center;
+    transform: rotate(90deg);
+}
+
+.opponentSide{
+    /* border: solid purple; */
+    height: 30vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.opponent{
+    /* border: solid green; */
+    height: 30vh;
+    width: 30vh;
+    align-self: center;
+}
+
+.scoreBoard{
+    /* border: groove; */
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 3vh;
+}
+
+.playerCol{
+    /* border: groove; */
+    height: 100%;
+    width: 40vh;
+}
+
+.playerCol div{
+    /* border: ridge; */
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.alienCol{
+    /* border: groove; */
+    height: 100%;
+    width: 40vh;
+}
+
+.alienCol div{
+    /* border: ridge; */
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer{
+    /* border: ridge; */
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vh;
+    margin: auto;
+}
+
+.playerAttack{
+    background-color: green;
+    cursor: pointer;
+}
+
+.retreat{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.alienAttack{
+    background-color: red;
+    cursor: pointer;
+}
