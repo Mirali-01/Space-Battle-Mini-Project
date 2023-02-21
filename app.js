@@ -52,11 +52,11 @@ let opponentImg = document.querySelector(".opponent");
 // generating six alien ships
 for (let i = 0; i < 6; i++) {
   let alienImg = [
-    "https://i.redd.it/9gvo2imxyxd81.gif",
     "https://i.pinimg.com/originals/45/dc/86/45dc86f84906fcf2e90cae87f54758fd.gif",
-    "https://cdna.artstation.com/p/assets/images/images/027/859/460/original/pim-alink-pq3-final-boss.gif?1592775707",
+    "https://i.redd.it/9gvo2imxyxd81.gif",
+    "https://i.gifer.com/origin/87/87d17325c9673f734d97bf489f26d546_w200.gif",
     "https://i.pinimg.com/originals/af/f1/4c/aff14c3945103903f69fb415f31482ff.gif",
-    "https://opengameart.org/sites/default/files/JEROM_bossA2_CC-BY-3.gif",
+    "https://i.pinimg.com/originals/d0/c3/c4/d0c3c4e24125709c6d3744f75843e13f.gif",
   ];
 
   const alien = new Ship(
@@ -126,6 +126,7 @@ let ussAttack = () => {
           retreatBtn.style.display = "none";
           player.style.display = "none";
           alien.style.display = "none";
+          // playerImg.style.transformOrigin = "300px";
         } else {
           alienCol();
         }
